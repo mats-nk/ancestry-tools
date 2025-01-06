@@ -1,3 +1,5 @@
+# Extract from Ancestry
+
 The ancestry_extract.py utility is designed to take a Gedcom from Ancestry.com as input along with other optional parameters. It then uses the Selenium webdriver to open a Firefox browser to login and navigate the site, pulling up the numerous media and source records, extracting any relevant fact data, generating a screenshot of the source record page, and then downloading the image if one is available.
 
 The original approach was to use the browser to save the images and then pull them out of the download directory, but after embarking on the project I ran into the utility by neRok00 that also downloaded the APID images by querying the Ancestry media API to get the download link. So I use the same approach here, passing the cookie from the Selenium session to the requests module, fetching the image data with that, and then passing it back to the Selenium session. When this breaks in the future I may switch back to the original technique.
