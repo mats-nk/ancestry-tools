@@ -1,3 +1,5 @@
+# Refactory of Gedcom files
+
 The ancestry_refactor.py tool is a next step utility designed to take the Gedcom file used for the download and refactor it to clean things up and enhance it so that it can be imported into another genealogy program. In this case I use Gramps but it should work fine with others as well.
 
 The following is a list of the things that are or can be done depending on the various command line options provided:
