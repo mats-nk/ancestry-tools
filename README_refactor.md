@@ -45,3 +45,5 @@ A sample invocation of the utility might be as follows:
 ```
 
 This applies pretty much all the options to the downloaded ancestry_gedcom.ged using the extracted tree information under familytree and creates the new file in the familytree directory. This is convenient if you want to tar or zip everything up.
+
+## [Home](README.md)
