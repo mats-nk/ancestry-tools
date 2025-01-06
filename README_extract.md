@@ -53,3 +53,5 @@ The download process is single threaded, one page and image at a time.  For a la
 If you some weeks or months later download an updated Gedcom you should be able to process it the same as the first one and it should parse through and only download and screenshot new items.
 
 Note sometimes items in the tree come up as "unavailable". I have a handful of these in my tree, all associated with a couple databases related to the Netherlands. I have not investigated in depth but suspect maybe the collection was reindexed or something else done on Ancestry's side that broke things.
+
+## [Home](README.md)
