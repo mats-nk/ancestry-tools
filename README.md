@@ -1,8 +1,8 @@
 # Ancestry Tools
 
-## [Extract](README_extract.md)
+## Documentation for [Extract](README_extract.md)
 
-## [Refactor](README_refactor.md)
+## Documentation for [Refactor](README_refactor.md)
 
 These tools were primarily developed out of frustration at having no way of backing up many years worth of genealogy work hosted on Ancestry.com and secondarily with the lack of some basic tools on Ancestry.com.
 
